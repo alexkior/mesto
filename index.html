@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img class="header__logo" src="/images/svg/Mesto_logo.svg" alt="Логотип Mesto">
+
+      <div class="header__line"></div>
+    </header>
+
+    <main class="main">
+      <section class="profile">
+        <img class="profile__avatar" src="/images/custo.jpg" alt="Аватарка">
+
+        <div class="profile__info">
+          <h1 class="profile__info_name">
+            Жак-Ив Кусто
+          </h1>
+
+          <button class="profile__info_edit-button">
+            <img src="/images/svg/pen.svg" alt="Ручка в кнопке">
+          </button>
+
+          <p class="profile__info_about">
+            Исследователь океана
+          </p>
+        </div>
+
+        <button class="profile__add-button">
+          <img src="/images/svg/plus.svg" alt="Плюс в кнопке">
+        </button>
+      </section>
+
+      <section class="elements">
+        <div class="element">
+          <img class="element__image" src="/images/karachaevsk.png" alt="Карачаевск">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Карачаево-Черкессия
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="/images/elbrus.png" alt="Эльбрус">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Эльбрус
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="/images/dombai.png" alt="Домбай">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Домбай
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="/images/elbrus.png" alt="Эльбрус">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Эльбрус
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="/images/dombai.png" alt="Домбай">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Домбай
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="/images/karachaevsk.png" alt="Карачаевск">
+
+          <div class="element__info">
+            <h2 class="element__name">
+              Карачаево-Черкессия
+            </h2>
+  
+            <img class="element__like" src="/images/svg/heart.svg" alt="Иконка лайка"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2020 Mesto Russia
+      </p>
+    </footer>
+
+    <section class="pop-up">
+      <form class="pop-up__container">
+        <img class="pop-up__close-button" src="/images/svg/Close_Icon.svg" alt="Кнопка закрытия">
+
+        <h2 class="pop-up__title">
+          Редактировать профиль
+        </h2>
+
+        <input class="pop-up__input" type="text" value="Жак-Ив Кусто" id="nameInput">
+
+        <input class="pop-up__input" type="text" value="Исследователь океана" id="jobInput">
+
+        <button class="pop-up__save-button">
+          <p class="pop-up__save-button-text">
+            Сохранить
+          </p>
+        </button>
+      </form>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.footer {
+    padding-top: 67px;
+    width: 880px;
+    min-height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  @media only screen and (max-width: 880px) {
+    .footer {
+      padding-top: 48px;
+      width: 282px;
+    }
+  }
+  

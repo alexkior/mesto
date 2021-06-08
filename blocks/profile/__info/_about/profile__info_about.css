@@ -1,0 +1,16 @@
+.profile__info_about {
+  margin: initial;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  grid-area: about;
+}
+
+@media only screen and (max-width: 880px) {
+  .profile__info_about {
+    justify-self: center;
+  }
+}
