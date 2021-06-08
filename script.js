@@ -1,5 +1,5 @@
 // Открывашка для поп-апа
-let formOpenerTrigger = document.querySelector('.profile__info_edit-button');
+let formOpenerTrigger = document.querySelector('.profile__edit-button');
 let formWrapperContent = document.querySelector('.pop-up');
 formOpenerTrigger.addEventListener('click', function() {
     formWrapperContent.classList.add('pop-up_opened');
@@ -30,8 +30,8 @@ function formSubmitHandler (evt) {
     jobInput = jobInput.value; 
 
     // Выберите элементы, куда должны быть вставлены значения полей
-    let profileName = document.querySelector('.profile__info_name');
-    let profileAbout = document.querySelector('.profile__info_about');
+    let profileName = document.querySelector('.profile__name');
+    let profileAbout = document.querySelector('.profile__about');
 
     // Вставьте новые значения с помощью textContent
     profileName.textContent = nameInput;
