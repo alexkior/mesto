@@ -6,8 +6,7 @@
   grid-template-columns: auto auto 1fr auto;
   grid-template-rows: auto;
   grid-template-areas: 
-  "avatar info none button"
-  ;
+  "avatar info none button";
 }
 
 @media only screen and (max-width: 880px) {
@@ -22,8 +21,7 @@
         grid-template-areas: 
         "avatar"
         "info"
-        "button"
-        ;
+        "button";
         justify-content: center;
         align-content: center;
       }

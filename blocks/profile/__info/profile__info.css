@@ -7,8 +7,7 @@
     grid-template-rows: auto auto;
     grid-template-areas: 
     "name button"
-    "about about"
-    ;
+    "about about";
     gap: 16px;
 }
 
