@@ -1,17 +1,18 @@
 .pop-up__container {
-    min-width: 430px;
+    width: 430px;
     min-height: 330px;
     border-radius: 10px;
     background-color: #fff;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 34px auto auto 34px;
+    justify-items: center;
 }
 
 @media only screen and (max-width: 880px) {
     .pop-up__container {
-        min-width: 282px;
+        width: 282px;
+        min-height: 322px;
     }
 }

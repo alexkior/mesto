@@ -1,13 +1,13 @@
 // Открывашка для поп-апа
 let formOpenerTrigger = document.querySelector('.profile__edit-button');
 let formWrapperContent = document.querySelector('.pop-up');
-formOpenerTrigger.addEventListener('click', function() {
+formOpenerTrigger.addEventListener('click', function formClassAdder() {
     formWrapperContent.classList.add('pop-up_opened');
 });
 
 // Закрывашка для поп-апа
 let formCloserTrigger = document.querySelector('.pop-up__close-button');
-formCloserTrigger.addEventListener('click', function() {
+formCloserTrigger.addEventListener('click', function formClassRemover() {
     formWrapperContent.classList.remove('pop-up_opened');
 });
 
