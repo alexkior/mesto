@@ -1,18 +1,16 @@
 .pop-up__close-button {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: relative;
     z-index: 3;
-    top: -35px;
-    left: 230px;
+    top: -50px;
+    left: 235px;
 }
 
 @media only screen and (max-width: 880px) {
     .pop-up__close-button {
         width: 26px;
         height: 26px;
-        position: relative;
-        z-index: 3;
         top: -35px;
         left: 130px;
     }

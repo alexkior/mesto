@@ -5,25 +5,20 @@
   display: grid;
   grid-template-columns: auto auto 1fr auto;
   grid-template-rows: auto;
-  grid-template-areas: 
-  "avatar info none button";
+  grid-template-areas: "avatar info none button";
 }
 
 @media only screen and (max-width: 880px) {
-    .profile {
-        padding-top: 40px;
-        max-width: 282px;
-        min-width: 320px;
-        min-height: 120px;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-        "avatar"
-        "info"
-        "button";
-        justify-content: center;
-        align-content: center;
-      }
+  .profile {
+    max-width: 282px;
+    min-width: 320px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "avatar"
+      "info"
+      "button";
+    justify-content: center;
+    align-content: center;
   }
-  
+}
