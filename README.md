@@ -16,4 +16,4 @@
 
 Удачи!
 
-Ссылка на проект: https://alexkior.github.io/mesto
+Ссылка на проект: https://alexkior.github.io/mesto/
