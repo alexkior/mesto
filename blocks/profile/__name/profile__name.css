@@ -1,10 +1,14 @@
 .profile__name {
   margin: initial;
+  padding: 0;
+  max-width: 500px;
   font-family: "Inter", "Arial", "sans-serif";
+  align-self: end;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
+  letter-spacing: 0.017rem;
   color: #fff;
   grid-area: name;
   text-overflow: ellipsis;
@@ -14,8 +18,10 @@
 
 @media only screen and (max-width: 880px) {
   .profile__name {
+    max-width: 200px;
     font-size: 27px;
     line-height: 33px;
     text-align: center;
+    letter-spacing: 0rem;
   }
 }

@@ -5,7 +5,7 @@
   background-color: #fff;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 34px auto auto 34px;
+  grid-template-rows: 26px auto auto;
   justify-items: center;
 }
 
