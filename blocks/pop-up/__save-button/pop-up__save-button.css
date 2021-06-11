@@ -5,12 +5,10 @@
   border-radius: 2px;
   background-color: #000;
   border: 0;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: normal;
