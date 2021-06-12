@@ -27,14 +27,8 @@ let profileAbout = document.querySelector('.profile__about');
 
 function formSubmitHandler (evt) {
     evt.preventDefault();
-
-    // Реально, без этих определений все ломается прям 
-    // Если их удалить, после внесения данных код вставляет не новое содержимое 
-    // value, а гору какого-то кода
-    nameInput = nameInput.value;
-    profileName.textContent = nameInput;
-    jobInput = jobInput.value; 
-    profileAbout.textContent = jobInput;
+    profileName.textContent = nameInput.value;
+    profileAbout.textContent = jobInput.value;
 
     formClassRemover();
 }

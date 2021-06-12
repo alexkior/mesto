@@ -5,12 +5,13 @@
   background-color: #fff;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 26px auto auto;
+  grid-template-rows: 34px auto auto 34px;
   justify-items: center;
 }
 
 @media only screen and (max-width: 880px) {
   .pop-up__container {
+    grid-template-rows: 26px auto auto;
     width: 282px;
     min-height: 322px;
   }
