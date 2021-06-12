@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 880px) {
   .profile__info {
-    grid-template-rows: 26px 14px;
+    grid-template-rows: 25px 14px;
     padding-top: 32px;
     padding-left: 26px;
     padding-right: 0px;
