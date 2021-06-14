@@ -1,5 +1,6 @@
 .footer {
   padding-top: 64px;
+  padding-bottom: 60px;
   width: 880px;
   display: flex;
   flex-direction: row;
@@ -9,7 +10,8 @@
 
 @media only screen and (max-width: 880px) {
   .footer {
-    padding-top: 32px;
+    padding-top: 48px;
+    padding-bottom: 36px;
     width: 282px;
   }
 }
